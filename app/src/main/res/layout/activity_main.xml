@@ -18,14 +18,19 @@
         android:padding="10dp"/>
 
 
-   <ListView
+
+
+
+   <GridView
+       android:id="@+id/lstProducts"
        android:layout_width="match_parent"
        android:layout_height="match_parent"
-       android:id="@+id/lstUsuarios"
+       android:columnWidth="120dp"
+       android:numColumns="2"
        android:padding="10dp"
-       android:divider="@color/black"
+       android:horizontalSpacing="2dp"
+       android:verticalSpacing="2dp"
        android:dividerHeight="1dp"
        />
-
 
 </androidx.appcompat.widget.LinearLayoutCompat>
